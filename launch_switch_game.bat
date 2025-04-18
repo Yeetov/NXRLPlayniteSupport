@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Prompt user to set the IP address manually in this file
-set "IP_ADDR=<YOUR-IP-HERE>"
+:: Load IP address from the configuration file
+for /f "tokens=2 delims==" %%a in (config.txt) do set IP_ADDR=%%a
 
 :: Ensure the Title ID is passed correctly
 if "%1"=="" (
