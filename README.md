@@ -28,17 +28,13 @@
 
 Download or clone the `NXRLPlayniteSupport` repository.
 
-    ```bash
     git clone https://github.com/yourusername/NXRLPlayniteSupport.git
-    ```
 
 ### 2. Configure the IP Address
 
 Edit the `config.txt` file to provide the IP address of your Nintendo Switch running the NX Remote Launcher.
 
-    ```ini
     ip=192.168.x.x  # Replace with your Switch's local IP address
-    ```
 
 ### 3. Platform-Specific Setup
 
@@ -56,9 +52,7 @@ Edit the `config.txt` file to provide the IP address of your Nintendo Switch run
 2. Navigate to the folder where the `launch_switch_game.bat` file is located.  
 3. Run the batch file with the Title ID as an argument:
 
-    ```bash
-    launch_switch_game.bat 01005EA01C0FC000
-    ```
+        launch_switch_game.bat 01005EA01C0FC000
 
 ### Linux/macOS
 
@@ -66,15 +60,11 @@ Edit the `config.txt` file to provide the IP address of your Nintendo Switch run
 2. Navigate to the folder where the `launch_switch_game.sh` file is located.  
 3. Make the script executable:
 
-    ```bash
-    chmod +x launch_switch_game.sh
-    ```
+        chmod +x launch_switch_game.sh
 
 4. Run the script with the Title ID as an argument:
 
-    ```bash
-    ./launch_switch_game.sh 01005EA01C0FC000
-    ```
+        ./launch_switch_game.sh 01005EA01C0FC000
 
 ---
 
@@ -91,10 +81,8 @@ Edit the `config.txt` file to provide the IP address of your Nintendo Switch run
 
 If the Title ID for a game is `01005EA01C0FC000` (in hexadecimal), you can launch it like this:
 
-    ```bash
     launch_switch_game.bat 01005EA01C0FC000   # Windows
     ./launch_switch_game.sh 01005EA01C0FC000   # Linux/macOS
-    ```
 
 ---
 
