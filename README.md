@@ -2,6 +2,9 @@
 
 **NXRLPlayniteSupport** is a cross-platform tool designed to launch Nintendo Switch games directly from Playnite by utilizing the [NX Remote Launcher](https://github.com/kirankunigiri/nx-remote-launcher). This tool is compatible with Windows, Linux, and macOS. It simplifies the process of launching games remotely on a modded Nintendo Switch using the Playnite app.
 
+[![Watch the demo](https://img.youtube.com/vi/kM70jainmFQ/0.jpg)](https://youtu.be/kM70jainmFQ)
+
+
 ---
 
 ## Features
